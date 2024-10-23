@@ -1,3 +1,51 @@
-[module]
-  [module.hugoVersion]
-    min = "0.114.0"
+baseURL = 'http://syckoSec.com/'
+languageCode = 'en-us'
+theme = "hugo-theme-nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "Home"
+    weight = 0
+    url = "blog"
+  [[menu.header]]
+    name = "Certs"
+    weight = 1
+    url = "about"
+
+[params]
+user = "hello"
+hostname = "syckoSec.io"
+  [params.author]
+    name = "Yousef Aref"  # Website and RSS feed author
+    email = ""  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/syckosecUSF"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://x.com/Yous3fAr3f"
+aria = "Twitter Profile"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com/in/yousef-aref-43488617a/"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:yousefaref1112@gmail.com"
+aria = "My e-Mail Address"
+
+
