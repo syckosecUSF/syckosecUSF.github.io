@@ -1,6 +1,6 @@
 baseURL = 'http://syckoSec.com/'
 languageCode = 'en-us'
-theme = "hugo-theme-nightfall"
+theme = "nightfall"
 
 [menu]
   [[menu.header]]
@@ -18,6 +18,11 @@ hostname = "syckoSec.io"
   [params.author]
     name = "Yousef Aref"  # Website and RSS feed author
     email = ""  # RSS feed email address
+
+sitedescription = 'Your website description'
+
+[[params.styles]]
+color = "orange"
 
 
 readingTime = true  # Show reading time on post page
@@ -47,5 +52,3 @@ key = 3
 name = "email"
 url = "mailto:yousefaref1112@gmail.com"
 aria = "My e-Mail Address"
-
-
